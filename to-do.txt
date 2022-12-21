@@ -1,13 +1,7 @@
 1- index page ✅
-2- heading & subheading admin can update from django admin
-3- create model for Announcements can ordered by admin from django admin
-    Announcements fields:
-        Title
-        Subheading 
-        Link
-        Is published 
-
-4- create table to display countries statistics it comes from api
+2- heading & subheading admin can update from django admin ✅
+3- create model for Announcements can ordered by admin from django admin ✅
+4- create table to display countries statistics it comes from api 
 5- search bar can search by country name, code 
 6- Periodically update data ===> don't now how can i do it ? go to search <===
     (https://docs.djangoproject.com/en/4.0/howto/custom-management-commands/)

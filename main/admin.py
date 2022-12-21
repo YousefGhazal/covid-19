@@ -4,7 +4,7 @@ from ordered_model.admin import OrderedModelAdmin
 from .models import Announcements, Heading
 # Register your models here.
 admin.site.register(Heading, SingletonModelAdmin)
-class AnnouncementsAdmin(OrderedModelAdmin):
-    list_display = ('name', 'move_up_down_links')
+class ItemAdmin(OrderedModelAdmin):
+    list_display = ('title', 'move_up_down_links')
 
-admin.site.register(Announcements, AnnouncementsAdmin)
+admin.site.register(Announcements, ItemAdmin)
